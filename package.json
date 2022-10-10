@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
     "dev": "webpack-dev-server --open"
   },
   "keywords": [],
@@ -28,6 +29,7 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.18.6",
+    "file-loader": "^6.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
