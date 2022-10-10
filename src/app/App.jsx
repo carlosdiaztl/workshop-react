@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import Footer from './footer/footer.jsx';
+import Footer from './footer/Footer.jsx';
+import Main from './main/Main.jsx';
 
 class App extends Component {
 
-    render(){
+    render() {
         return (
-            <main >
-            <Footer/>
+            <>
+                <Main />
+                <Footer />
+            </>
 
-                
-            </main>
         )
     }
 }
