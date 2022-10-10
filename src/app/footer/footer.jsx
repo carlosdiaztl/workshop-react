@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import Footer from './footer/footer.jsx';
 
-class App extends Component {
+
+class Footer extends Component {
 
     render(){
         return (
             <main >
-            <Footer/>
-
+            <h1> Footer</h1>
+            
                 
             </main>
         )
     }
 }
 
-export default App;
+export default Footer;
