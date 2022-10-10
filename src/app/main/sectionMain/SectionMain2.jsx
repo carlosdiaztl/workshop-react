@@ -4,6 +4,16 @@ import "../../styles/style.scss"
 
 import imageSection1 from "../../images/image-interactivePC.jpg";
 
+function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+  }
+
+  const images = importAll(require.context('../images/imagenCard/', false, /.(png|jpe?g|svg)$/));
+
+console.log(images);
+
 class SectionMain1 extends Component { 
 
    render(){
