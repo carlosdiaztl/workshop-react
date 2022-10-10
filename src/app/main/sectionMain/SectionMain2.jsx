@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 
 import "../../styles/style.scss"
 
-import imageSection1 from "../../images/image-interactivePC.jpg";
 
 class SectionMain1 extends Component { 
 
    render(){
        return ( 
-        <div className='div__section1'>
+        <div className='div__section2'>
             <img src={imageSection1} /> 
             <aside>
                 <h2>THE LEADER IN INTERACTIVE VR</h2>
@@ -22,4 +21,4 @@ class SectionMain1 extends Component {
    }
 }
 
-export default SectionMain1;
+export default SectionMain2;
