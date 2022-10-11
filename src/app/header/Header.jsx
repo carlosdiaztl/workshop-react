@@ -1,20 +1,52 @@
 import React, { Component } from 'react';
-import img1 from '../images/image-deep-earthPC.jpg';
-import '../header/style.scss';
+import im1 from "../images/image-heroPC.jpg"
+import logo from "../images/image-heroPC.jpg"
 
 
 class Header extends Component {
 
-    render(){
-        return (
-            <main >
-            <h1>Header</h1>
-            <img src={img1} /> 
-            
+render() {
+    return (
+       
+            <div className='header' style={{backgroundImage:"url(../images/image-heroPC.jpg)"}}>
+           
+              
                 
-            </main>
-        )
-    }
+                <nav>
+                <img  src={im1} />
+                <section>
+                  <button>
+                  hidesss
+
+                  </button>
+                  <button>
+                  career
+                    
+                  </button>
+                  <button>
+                  reflexice
+                    
+                  </button>
+                  <button>
+                  squadron
+                    
+                  </button>
+
+                  <button>
+                  boltereia
+                    
+                  </button>
+
+                </section>
+                
+                
+
+                </nav>
+                <aside> <h1>hoelo we are creat a backgroundImage <br></br> dream like a </h1></aside>
+            </div>
+      
+    )
+}
 }
 
 export default Header;
