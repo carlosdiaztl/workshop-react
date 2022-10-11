@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import "../../styles/style.scss"
 
-import imageSection1 from "../../images/image-interactivePC.jpg";
+import imageSection1 from "../../../public/images/image-interactivePC.jpg";
+
 
 class SectionMain1 extends Component { 
 
